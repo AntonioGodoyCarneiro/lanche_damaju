@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\antonio.gsgcarneiro\\source\\repos\\Lanches_Damaju\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{95964018-3C15-4A10-967A-398E865058A8}|Lanches_Damaju.csproj|c:\\users\\antonio.gsgcarneiro\\source\\repos\\lanches_damaju\\gerenciamento damaju.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95964018-3C15-4A10-967A-398E865058A8}|Lanches_Damaju.csproj|solutionrelative:gerenciamento damaju.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95964018-3C15-4A10-967A-398E865058A8}|Lanches_Damaju.csproj|c:\\users\\antonio.gsgcarneiro\\source\\repos\\lanches_damaju\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95964018-3C15-4A10-967A-398E865058A8}|Lanches_Damaju.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95964018-3C15-4A10-967A-398E865058A8}|Lanches_Damaju.csproj|c:\\users\\antonio.gsgcarneiro\\source\\repos\\lanches_damaju\\gerenciamento damaju.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{95964018-3C15-4A10-967A-398E865058A8}|Lanches_Damaju.csproj|solutionrelative:gerenciamento damaju.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95964018-3C15-4A10-967A-398E865058A8}|Lanches_Damaju.csproj|c:\\users\\antonio.gsgcarneiro\\source\\repos\\lanches_damaju\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{95964018-3C15-4A10-967A-398E865058A8}|Lanches_Damaju.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95964018-3C15-4A10-967A-398E865058A8}|Lanches_Damaju.csproj|c:\\users\\antonio.gsgcarneiro\\source\\repos\\lanches_damaju\\cadastrar_produtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{95964018-3C15-4A10-967A-398E865058A8}|Lanches_Damaju.csproj|solutionrelative:cadastrar_produtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{95964018-3C15-4A10-967A-398E865058A8}|Lanches_Damaju.csproj|c:\\users\\antonio.gsgcarneiro\\source\\repos\\lanches_damaju\\cadastrar_produtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95964018-3C15-4A10-967A-398E865058A8}|Lanches_Damaju.csproj|solutionrelative:cadastrar_produtos.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 340,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Cadastrar_produtos.cs",
+              "DocumentMoniker": "C:\\Users\\antonio.gsgcarneiro\\source\\repos\\Lanches_Damaju\\Cadastrar_produtos.cs",
+              "RelativeDocumentMoniker": "Cadastrar_produtos.cs",
+              "ToolTip": "C:\\Users\\antonio.gsgcarneiro\\source\\repos\\Lanches_Damaju\\Cadastrar_produtos.cs",
+              "RelativeToolTip": "Cadastrar_produtos.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAewBYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T14:48:14.611Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\antonio.gsgcarneiro\\source\\repos\\Lanches_Damaju\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\antonio.gsgcarneiro\\source\\repos\\Lanches_Damaju\\Form1.cs",
+              "RelativeToolTip": "Form1.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAApwCcAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T14:47:31.294Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\antonio.gsgcarneiro\\source\\repos\\Lanches_Damaju\\Form1.cs",
+              "RelativeDocumentMoniker": "Form1.cs",
+              "ToolTip": "C:\\Users\\antonio.gsgcarneiro\\source\\repos\\Lanches_Damaju\\Form1.cs [Design]",
+              "RelativeToolTip": "Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T14:47:30.086Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Cadastrar_produtos.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\antonio.gsgcarneiro\\source\\repos\\Lanches_Damaju\\Cadastrar_produtos.cs",
+              "RelativeDocumentMoniker": "Cadastrar_produtos.cs",
+              "ToolTip": "C:\\Users\\antonio.gsgcarneiro\\source\\repos\\Lanches_Damaju\\Cadastrar_produtos.cs [Design]",
+              "RelativeToolTip": "Cadastrar_produtos.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T14:41:28.159Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "GERENCIAMENTO DAMAJU.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\antonio.gsgcarneiro\\source\\repos\\Lanches_Damaju\\GERENCIAMENTO DAMAJU.cs",
+              "RelativeDocumentMoniker": "GERENCIAMENTO DAMAJU.cs",
+              "ToolTip": "C:\\Users\\antonio.gsgcarneiro\\source\\repos\\Lanches_Damaju\\GERENCIAMENTO DAMAJU.cs [Design]*",
+              "RelativeToolTip": "GERENCIAMENTO DAMAJU.cs [Design]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T13:41:58.238Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GERENCIAMENTO DAMAJU.cs",
+              "DocumentMoniker": "C:\\Users\\antonio.gsgcarneiro\\source\\repos\\Lanches_Damaju\\GERENCIAMENTO DAMAJU.cs",
+              "RelativeDocumentMoniker": "GERENCIAMENTO DAMAJU.cs",
+              "ToolTip": "C:\\Users\\antonio.gsgcarneiro\\source\\repos\\Lanches_Damaju\\GERENCIAMENTO DAMAJU.cs*",
+              "RelativeToolTip": "GERENCIAMENTO DAMAJU.cs*",
+              "ViewState": "AgIAABwAAAAAAAAAAAAewCMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-17T14:41:12.835Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedHeight": 52,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
