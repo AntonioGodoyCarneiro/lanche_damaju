@@ -18,11 +18,27 @@ namespace Lanches_Damaju
             InitializeComponent();
         }
 
-        private void button_cadastrar_Click(object sender, EventArgs e)
+        
+
+        private void button_limparCampos_Click(object sender, EventArgs e)
+        { 
+            textBox_nome.Text = "";
+            maskedTextBox_valor.Text = "";
+            richTextBox_descricao.Text = "";
+            pictureBox_produto.Text = "";
+            comboBox_categoria.Text = "";
+         }
+
+        private void button_fechar_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button_cadastrarProduto_Click_1(object sender, EventArgs e)
         {
             {
                 //Define sua string de conexão com o banco
-                string conexaoString = "Server=localhost; Port=3306; Database=lanches_damaju; Uid=root; Pwd=;";
+                string conexaoString = "Server=localhost; Port=3306; Database=db_lanches_damaju; Uid=root; Pwd=;";
 
                 //Defina a inserção de registro no BD
                 string query = "INSERT INTO tb_produto (nome, valor, descricao, imagem, categoria) VALUES (@nome, @valor, @descricao, @imagem, @categoria)";
@@ -43,7 +59,7 @@ namespace Lanches_Damaju
                             comando.Parameters.AddWithValue("@valor", maskedTextBox_valor.Text);
                             comando.Parameters.AddWithValue("@descricao", richTextBox_descricao.Text);
                             comando.Parameters.AddWithValue("@imagem", pictureBox_produto.Text);
-                            comando.Parameters.AddWithValue("@categoria", comboBox_categoria.Text);
+                            comando.Parameters.AddWithValue("@categoria", pictureBox_produto.Text);
 
 
                             //Executa o comando de inserção
@@ -61,20 +77,7 @@ namespace Lanches_Damaju
                     }
                 }
             }
-        }
 
-        private void button_limparCampos_Click(object sender, EventArgs e)
-        { 
-            textBox_nome.Text = "";
-            maskedTextBox_valor.Text = "";
-            richTextBox_descricao.Text = "";
-            pictureBox_produto.Text = "";
-            comboBox_categoria.Text = "";
-         }
-
-        private void button_fechar_Click(object sender, EventArgs e)
-        {
-            this.Close();
         }
     }
 }

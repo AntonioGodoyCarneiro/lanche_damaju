@@ -191,7 +191,6 @@
             // maskedTextBox_email
             // 
             this.maskedTextBox_email.Location = new System.Drawing.Point(262, 174);
-            this.maskedTextBox_email.Mask = "@";
             this.maskedTextBox_email.Name = "maskedTextBox_email";
             this.maskedTextBox_email.Size = new System.Drawing.Size(264, 20);
             this.maskedTextBox_email.TabIndex = 3;
@@ -223,6 +222,7 @@
             this.button_cadastrarClientes.TabIndex = 17;
             this.button_cadastrarClientes.Text = "CADASTRAR";
             this.button_cadastrarClientes.UseVisualStyleBackColor = true;
+            this.button_cadastrarClientes.Click += new System.EventHandler(this.button_cadastrarClientes_Click);
             // 
             // button_limparCampos
             // 

@@ -35,7 +35,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.textBox_nome = new System.Windows.Forms.TextBox();
             this.button_limparCampos = new System.Windows.Forms.Button();
-            this.button_cadastrar = new System.Windows.Forms.Button();
+            this.button_cadastrarProduto = new System.Windows.Forms.Button();
             this.button_fechar = new System.Windows.Forms.Button();
             this.comboBox_categoria = new System.Windows.Forms.ComboBox();
             this.maskedTextBox_valor = new System.Windows.Forms.MaskedTextBox();
@@ -113,15 +113,15 @@
             this.button_limparCampos.UseVisualStyleBackColor = true;
             this.button_limparCampos.Click += new System.EventHandler(this.button_limparCampos_Click);
             // 
-            // button_cadastrar
+            // button_cadastrarProduto
             // 
-            this.button_cadastrar.Location = new System.Drawing.Point(359, 391);
-            this.button_cadastrar.Name = "button_cadastrar";
-            this.button_cadastrar.Size = new System.Drawing.Size(96, 38);
-            this.button_cadastrar.TabIndex = 6;
-            this.button_cadastrar.Text = "CADASTRAR";
-            this.button_cadastrar.UseVisualStyleBackColor = true;
-            this.button_cadastrar.Click += new System.EventHandler(this.button_cadastrar_Click);
+            this.button_cadastrarProduto.Location = new System.Drawing.Point(359, 391);
+            this.button_cadastrarProduto.Name = "button_cadastrarProduto";
+            this.button_cadastrarProduto.Size = new System.Drawing.Size(96, 38);
+            this.button_cadastrarProduto.TabIndex = 6;
+            this.button_cadastrarProduto.Text = "CADASTRAR";
+            this.button_cadastrarProduto.UseVisualStyleBackColor = true;
+            this.button_cadastrarProduto.Click += new System.EventHandler(this.button_cadastrarProduto_Click_1);
             // 
             // button_fechar
             // 
@@ -191,7 +191,7 @@
             this.Controls.Add(this.maskedTextBox_valor);
             this.Controls.Add(this.comboBox_categoria);
             this.Controls.Add(this.button_fechar);
-            this.Controls.Add(this.button_cadastrar);
+            this.Controls.Add(this.button_cadastrarProduto);
             this.Controls.Add(this.button_limparCampos);
             this.Controls.Add(this.textBox_nome);
             this.Controls.Add(this.label5);
@@ -216,7 +216,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.TextBox textBox_nome;
         private System.Windows.Forms.Button button_limparCampos;
-        private System.Windows.Forms.Button button_cadastrar;
+        private System.Windows.Forms.Button button_cadastrarProduto;
         private System.Windows.Forms.Button button_fechar;
         private System.Windows.Forms.ComboBox comboBox_categoria;
         private System.Windows.Forms.MaskedTextBox maskedTextBox_valor;

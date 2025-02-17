@@ -64,6 +64,7 @@
             this.button_gerenciarCliente.TabIndex = 2;
             this.button_gerenciarCliente.Text = "Gerenciar Cliente";
             this.button_gerenciarCliente.UseVisualStyleBackColor = true;
+            this.button_gerenciarCliente.Click += new System.EventHandler(this.button_gerenciarCliente_Click);
             // 
             // button3
             // 
@@ -83,6 +84,7 @@
             this.button_apagarCliente.TabIndex = 4;
             this.button_apagarCliente.Text = "Apagar Cliente";
             this.button_apagarCliente.UseVisualStyleBackColor = true;
+            this.button_apagarCliente.Click += new System.EventHandler(this.button_apagarCliente_Click);
             // 
             // button_apagarProduto
             // 
@@ -92,6 +94,7 @@
             this.button_apagarProduto.TabIndex = 3;
             this.button_apagarProduto.Text = "Apagar Produto";
             this.button_apagarProduto.UseVisualStyleBackColor = true;
+            this.button_apagarProduto.Click += new System.EventHandler(this.button_apagarProduto_Click);
             // 
             // label1
             // 
