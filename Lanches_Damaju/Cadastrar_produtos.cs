@@ -38,7 +38,7 @@ namespace Lanches_Damaju
         {
             {
                 //Define sua string de conexão com o banco
-                string conexaoString = "Server=localhost; Port=3306; Database=db_lanches_damaju; Uid=root; Pwd=;";
+                string conexaoString = "Server=localhost; Port=3306; Database=lanches_damaju; Uid=root; Pwd=;";
 
                 //Defina a inserção de registro no BD
                 string query = "INSERT INTO tb_produto (nome, valor, descricao, imagem, categoria) VALUES (@nome, @valor, @descricao, @imagem, @categoria)";

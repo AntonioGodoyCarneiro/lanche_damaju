@@ -1,14 +1,14 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\user_acronus\\source\\repos\\lanche_damaju\\Lanches_Damaju\\",
+  "WorkspaceRootPath": "C:\\xampp\\htdocs\\Antonio\\Lanches_Damaju\\lanche_damaju\\Lanches_Damaju\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{95964018-3C15-4A10-967A-398E865058A8}|Lanches_Damaju.csproj|c:\\users\\user_acronus\\source\\repos\\lanche_damaju\\lanches_damaju\\tabela_cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{95964018-3C15-4A10-967A-398E865058A8}|Lanches_Damaju.csproj|solutionrelative:tabela_cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{95964018-3C15-4A10-967A-398E865058A8}|Lanches_Damaju.csproj|c:\\xampp\\htdocs\\antonio\\lanches_damaju\\lanche_damaju\\lanches_damaju\\gerenciamento damaju.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95964018-3C15-4A10-967A-398E865058A8}|Lanches_Damaju.csproj|solutionrelative:gerenciamento damaju.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95964018-3C15-4A10-967A-398E865058A8}|Lanches_Damaju.csproj|c:\\users\\user_acronus\\source\\repos\\lanche_damaju\\lanches_damaju\\tabela_cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95964018-3C15-4A10-967A-398E865058A8}|Lanches_Damaju.csproj|solutionrelative:tabela_cliente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{95964018-3C15-4A10-967A-398E865058A8}|Lanches_Damaju.csproj|c:\\xampp\\htdocs\\antonio\\lanches_damaju\\lanche_damaju\\lanches_damaju\\gerenciamento damaju.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{95964018-3C15-4A10-967A-398E865058A8}|Lanches_Damaju.csproj|solutionrelative:gerenciamento damaju.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedHeight": 340,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,27 +26,27 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Tabela_Cliente.cs",
-              "DocumentMoniker": "C:\\Users\\user_acronus\\source\\repos\\lanche_damaju\\Lanches_Damaju\\Tabela_Cliente.cs",
-              "RelativeDocumentMoniker": "Tabela_Cliente.cs",
-              "ToolTip": "C:\\Users\\user_acronus\\source\\repos\\lanche_damaju\\Lanches_Damaju\\Tabela_Cliente.cs*",
-              "RelativeToolTip": "Tabela_Cliente.cs*",
-              "ViewState": "AgIAACkAAAAAAAAAAAAawCsAAAAMAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "GERENCIAMENTO DAMAJU.cs",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\Antonio\\Lanches_Damaju\\lanche_damaju\\Lanches_Damaju\\GERENCIAMENTO DAMAJU.cs",
+              "RelativeDocumentMoniker": "GERENCIAMENTO DAMAJU.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\Antonio\\Lanches_Damaju\\lanche_damaju\\Lanches_Damaju\\GERENCIAMENTO DAMAJU.cs*",
+              "RelativeToolTip": "GERENCIAMENTO DAMAJU.cs*",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAvwE4AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T16:27:36.813Z",
+              "WhenOpened": "2025-02-18T12:50:05.263Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Tabela_Cliente.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\user_acronus\\source\\repos\\lanche_damaju\\Lanches_Damaju\\Tabela_Cliente.cs",
-              "RelativeDocumentMoniker": "Tabela_Cliente.cs",
-              "ToolTip": "C:\\Users\\user_acronus\\source\\repos\\lanche_damaju\\Lanches_Damaju\\Tabela_Cliente.cs [Design]*",
-              "RelativeToolTip": "Tabela_Cliente.cs [Design]*",
+              "DocumentIndex": 1,
+              "Title": "GERENCIAMENTO DAMAJU.cs [Design]",
+              "DocumentMoniker": "C:\\xampp\\htdocs\\Antonio\\Lanches_Damaju\\lanche_damaju\\Lanches_Damaju\\GERENCIAMENTO DAMAJU.cs",
+              "RelativeDocumentMoniker": "GERENCIAMENTO DAMAJU.cs",
+              "ToolTip": "C:\\xampp\\htdocs\\Antonio\\Lanches_Damaju\\lanche_damaju\\Lanches_Damaju\\GERENCIAMENTO DAMAJU.cs [Design]*",
+              "RelativeToolTip": "GERENCIAMENTO DAMAJU.cs [Design]*",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-17T16:27:33.593Z",
+              "WhenOpened": "2025-02-18T12:49:56.243Z",
               "EditorCaption": " [Design]"
             }
           ]

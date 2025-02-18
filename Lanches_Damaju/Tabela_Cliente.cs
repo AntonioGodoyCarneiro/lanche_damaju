@@ -43,16 +43,12 @@ namespace Lanches_Damaju
 
         private void button_cadastrarClientes_Click(object sender, EventArgs e)
         {
-
-
             {
-
-
                 //Define sua string de conexão com o banco
-                string conexaoString = "Server=localhost; Port=3306; Database=db_lanches_damaju; Uid=root; Pwd=;";
+                string conexaoString = "Server=localhost; Port=3306; Database=lanches_damaju; Uid=root; Pwd=;";
 
                 //Defina a inserção de registro no BD
-                string query = "INSERT INTO tb_cliente (nome, senha, e-mail, CPF, numero, telefone, CEP, imagem) VALUES (@nome, @senha, @e-mail, @CPF, @numero, @telefone, @CEP, @imagem)";
+                string query = "INSERT INTO tb_cliente (senha, email, CEP, CPF, numero, telefone, imagem, nome) VALUES (@senha, @email, @CEP, @CPF, @numero, @telefone, @imagem, @nome)";
 
                 //Crie uma conexão com o BD
                 using (MySqlConnection conexao = new MySqlConnection(conexaoString))
@@ -65,15 +61,15 @@ namespace Lanches_Damaju
                         //Crie o comenado SQL
                         using (MySqlCommand comando = new MySqlCommand(query, conexao))
                         {
-                            //Adicionar os parâmetros com os valores dos TexBox
-                            comando.Parameters.AddWithValue("@nome", textBox_nome.Text);
+                            //Adicionar os parâmetros com os valores dos TexBox                        
                             comando.Parameters.AddWithValue("@senha", textBox_senha.Text);
-                            comando.Parameters.AddWithValue("@e-mail", maskedTextBox_email.Text);
+                            comando.Parameters.AddWithValue("@email", maskedTextBox_email.Text);
                             comando.Parameters.AddWithValue("@CPF", maskedTextBox_CPF.Text);
                             comando.Parameters.AddWithValue("@numero", maskedTextBox_numero.Text);
                             comando.Parameters.AddWithValue("@telefone", maskedTextBox_telefone.Text);
                             comando.Parameters.AddWithValue("@CEP", maskedTextBox_CEP.Text);
                             comando.Parameters.AddWithValue("@imagem", pictureBox1.Text);
+                            comando.Parameters.AddWithValue("@nome", textBox_nome.Text);
                             //Executa o comando de inserção
 
                             comando.ExecuteNonQuery();
@@ -92,3 +88,4 @@ namespace Lanches_Damaju
         }
     }
 }
+

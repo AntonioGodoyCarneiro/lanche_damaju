@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Tempo de geração: 17/02/2025 às 17:39
+-- Tempo de geração: 18/02/2025 às 13:59
 -- Versão do servidor: 10.4.32-MariaDB
 -- Versão do PHP: 8.2.12
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Banco de dados: `db_lanches_damaju`
+-- Banco de dados: `lanches_damaju`
 --
 
 -- --------------------------------------------------------
@@ -28,20 +28,40 @@ SET time_zone = "+00:00";
 --
 
 CREATE TABLE `tb_produto` (
-  `id` int(11) DEFAULT NULL,
+  `id` int(11) NOT NULL,
   `nome` varchar(255) NOT NULL,
   `valor` varchar(255) NOT NULL,
   `descricao` varchar(255) NOT NULL,
-  `categoria` varchar(255) NOT NULL,
-  `imagem` int(11) NOT NULL
+  `imagem` blob NOT NULL,
+  `categoria` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
 
 --
 -- Despejando dados para a tabela `tb_produto`
 --
 
-INSERT INTO `tb_produto` (`id`, `nome`, `valor`, `descricao`, `categoria`, `imagem`) VALUES
-(NULL, 'fef', 'R$561,', 'ojihj', '', 0);
+INSERT INTO `tb_produto` (`id`, `nome`, `valor`, `descricao`, `imagem`, `categoria`) VALUES
+(2, 'X-TUDO', 'R$035,00', 'Tem tudo', '', 'LANCHES');
+
+--
+-- Índices para tabelas despejadas
+--
+
+--
+-- Índices de tabela `tb_produto`
+--
+ALTER TABLE `tb_produto`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT para tabelas despejadas
+--
+
+--
+-- AUTO_INCREMENT de tabela `tb_produto`
+--
+ALTER TABLE `tb_produto`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
